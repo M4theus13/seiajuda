@@ -1,0 +1,43 @@
+/* Navegação */
+
+.logo-prefeitura {
+  width: 140px;
+}
+
+.sectionOne {
+  display: flex;
+  height: 100vh;
+  gap: 50px;
+  flex-direction: column;
+
+}
+
+.sectionOne a {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#documentos {
+  top: 40px;
+  transition: .4s;
+}
+
+#documentos:hover {
+  transform: scale(1.03);
+}
+
+
+#videos {
+  top: 70px;
+  transition: .4s;
+}
+
+#videos:hover {
+  transform: scale(1.03);
+}
+

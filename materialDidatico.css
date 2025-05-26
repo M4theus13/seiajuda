@@ -1,0 +1,45 @@
+.materialDidaticoOptions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.materialDidaticoDocumentos, .materialDidaticoVideos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: #a5b51b;
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+/* 
+.materialDidaticoDocumentos {
+
+}
+
+.materialDidaticoVideos {
+
+} */
+
+@media (max-width: 768px) {
+    .materialDidaticoOptions {
+        flex-direction: column;
+    }
+    
+    .materialDidaticoDocumentos, .materialDidaticoVideos {
+        width: 100%;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+  
+}
